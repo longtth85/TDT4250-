@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studyPlan:StudyPlan
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:studyPlan="platform:/plugin/tdt4250.studyPlan.model/model/studyPlan.ecore"
+    xsi:schemaLocation="platform:/plugin/tdt4250.studyPlan.model/model/studyPlan.ecore studyPlan.ecore">
+  <programmes>
+    <programmeStart
+        year="2020">
+      <programmeLevel>
+        <springSemester
+            courses="//@courses.3/@programmeCourse.0 //@courses.0/@programmeCourse.0 //@courses.1/@programmeCourse.0 //@courses.2/@programmeCourse.0"/>
+        <fallSemester/>
+        <nextProgrammeLevel
+            level="Level2"/>
+      </programmeLevel>
+    </programmeStart>
+  </programmes>
+  <courses name="Examen Philosophicum for naturvitenskap og teknologi"
+      code="EXPH0004"
+      credit="7.5">
+    <programmeCourse
+        year="2020"/>
+  </courses>
+  <courses name="Informasjonteknologi, grunnkurs"
+      code="TDT4110"
+      credit="7.5">
+    <programmeCourse
+        year="2020"/>
+  </courses>
+  <courses name="Matematikk 1"
+      code="TMA4100"
+      credit="7.5">
+    <programmeCourse
+        year="2020"/>
+  </courses>
+  <courses name="Diskret Matematikk"
+      code="TMA4140"
+      credit="7.5">
+    <programmeCourse
+        year="2020"/>
+  </courses>
+  <courses name="Objektorientert programmering"
+      code="TDT4100"
+      credit="7.5">
+    <programmeCourse
+        semester="Spring"
+        year="2020"/>
+  </courses>
+</studyPlan:StudyPlan>
