@@ -8,8 +8,8 @@ contains the source code and the model
 * `src` contains the generated source code
 * `model` contains the ECore model, the generator model and a dynamic instance
 
-* 'Manually written constraints:' CourseCode EDataType must have the correct format. Also Semester should have minimum of 30 credits total.
-* 'OCL:' Semester should have minimum of 30 credits and should only contain courses for the proper semester(this one is not correctly implemented).
-* 'Derived Feature:' attribute name in Eclass Semester is unchangable, transient, volatile and gets it's name from the semester attributes in the Eclass ProgrammeLevel
+* `Manually written constraints:` CourseCode EDataType must have the correct format. Also Semester should have minimum of 30 credits total.
+* `OCL:` Semester should have minimum of 30 credits and should only contain courses for the proper semester(this one is not correctly implemented).
+* `Derived Feature:` attribute name in Eclass Semester is unchangable, transient, volatile and gets it's name from the semester attributes in the Eclass ProgrammeLevel
 
 Course Groups are also not properly implemented
