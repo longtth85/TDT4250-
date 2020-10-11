@@ -81,8 +81,8 @@
         <details key="derivation" value="if self.eContainmentFeature() &lt;> null and self.eContainmentFeature().name = 'fallSemester' then 'Fall' else 'Spring' endif"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="courseGroup" eType="#//CourseGroup"
-        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="courseGroup" lowerBound="1"
+        upperBound="-1" eType="#//CourseGroup" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EDataType" name="CourseCode" instanceClassName="java.lang.String">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">

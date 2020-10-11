@@ -10,8 +10,17 @@
         year="2020">
       <programmeLevel>
         <springSemester
-            courses="//@courses.3/@programmeCourse.0 //@courses.0/@programmeCourse.0 //@courses.1/@programmeCourse.0 //@courses.2/@programmeCourse.0"/>
-        <fallSemester/>
+            courses="//@courses.3/@programmeCourse.0 //@courses.0/@programmeCourse.0 //@courses.1/@programmeCourse.0 //@courses.2/@programmeCourse.0">
+          <courseGroup
+              name="O"/>
+          <courseGroup
+              name="VA"/>
+        </springSemester>
+        <fallSemester
+            courses="//@courses.0/@programmeCourse.0 //@courses.1/@programmeCourse.0 //@courses.2/@programmeCourse.0 //@courses.3/@programmeCourse.0">
+          <courseGroup
+              name="O"/>
+        </fallSemester>
         <nextProgrammeLevel
             level="Level2"/>
       </programmeLevel>
