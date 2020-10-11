@@ -13,3 +13,12 @@ contains the source code and the model
 * `Derived Feature:` attribute name in Eclass Semester is unchangable, transient, volatile and gets it's name from the semester attributes in the Eclass ProgrammeLevel
 
 Course Groups are also not properly implemented
+
+#Assignment 2
+The ecore model got simplified to accomadate the assigment and to make implementing model transformation with Acceleo M2T easier.
+The model transformation is in the package `tdt4250.studyPlan.model.html`.
+
+The Transformation is viewable in `tdt4250.studyPlan.model.html\src\no\tdt4250\model\html\ntnu.html`
+
+It is also possible to run the transformation by launching `tdt4250.studyPlan.model.html\src\no\tdt4250\model\html\main\generateHTML.mtl` as an Acceleo Program and specifying
+`tdt4250.studyPlan.model\model\programmes.xmi` as the instance and your desired target folder.

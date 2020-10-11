@@ -7,11 +7,11 @@
 <plugin>
 
    <extension point="org.eclipse.emf.ecore.generated_package">
-      <!-- @generated studyPlan -->
+      <!-- @generated programmes -->
       <package
-            uri="platform:/plugin/tdt4250.studyPlan.model/model/studyPlan.ecore"
-            class="studyPlan.StudyPlanPackage"
-            genModel="model/studyPlan.genmodel"/>
+            uri="platform:/plugin/no.tdt4250.model/model/programmes."
+            class="programmes.ProgrammesPackage"
+            genModel="model/programmes.genmodel"/>
    </extension>
 
 </plugin>
